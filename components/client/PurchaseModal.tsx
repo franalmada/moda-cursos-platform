@@ -20,7 +20,7 @@ export default function PurchaseModal({ course, user }: PurchaseModalProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   // Datos de contacto de la diseñadora (pueden venir de variables de entorno)
-  const designerWhatsApp = '+595994807948' // Reemplazar con número real
+  const designerWhatsApp = '+595975941524' // Reemplazar con número real
   const designerName = 'Diseñadora Principal'
 
   // Mensaje predefinido para WhatsApp
