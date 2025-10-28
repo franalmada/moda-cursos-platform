@@ -5,10 +5,16 @@ import Header from '@/components/Header'
 import Providers from '@/components/Providers'
 import SWRegister from '@/components/SWRegister' // CAMBIAR A COMPONENTE SEPARADO
 
+<head>
+  <link rel="icon" href="/icon-192x192.png" />
+</head>
+
 const inter = Inter({ 
   subsets: ['latin'],
   display: 'swap',
 })
+
+
 
 // METADATA - QUITAR themeColor y viewport de aquí
 export const metadata: Metadata = {
